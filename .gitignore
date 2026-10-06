@@ -1,23 +1,10 @@
-# Dependencies and builds
-node_modules/
-dist/
-dist-old/
-
-# SigtGridLink build output
-tools/SigtGridLink/bin/
-tools/SigtGridLink/obj/
-
-# Test saves and local files
-*.fch
-*.fch.old
-*.fwl
-*.db
-*.log
-
-# Editors and systems
-.vscode/
-.idea/
+# SigtGrid-releases only holds the README; installers are added as release files by
+# "npm run release", not committed. Keep system leftovers out of the repo.
 .DS_Store
 ._*
 Thumbs.db
 desktop.ini
+*.exe
+*.blockmap
+*.yml
+!.github/**/*.yml
